@@ -2719,9 +2719,9 @@
 			productReference = C88FA50C1C25C44800CCFEA4 /* RxTest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C8A56AD61AD7424700B4673B /* RxSwift */ = {
+		C8A56AD61AD7424700B4673B /* BuzzRxSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8A56AED1AD7424700B4673B /* Build configuration list for PBXNativeTarget "RxSwift" */;
+			buildConfigurationList = C8A56AED1AD7424700B4673B /* Build configuration list for PBXNativeTarget "BuzzRxSwift" */;
 			buildPhases = (
 				A21F589121E109AD0051AEA2 /* SwiftLint */,
 				C8A56AD41AD7424700B4673B /* Headers */,
@@ -2733,7 +2733,7 @@
 			);
 			dependencies = (
 			);
-			name = RxSwift;
+			name = BuzzRxSwift;
 			productName = RxSwift;
 			productReference = C8A56AD71AD7424700B4673B /* RxSwift.framework */;
 			productType = "com.apple.product-type.framework";
@@ -2815,7 +2815,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8A56AD61AD7424700B4673B /* RxSwift */,
+				C8A56AD61AD7424700B4673B /* BuzzRxSwift */,
 				C80938F51B8A71760088E94D /* RxCocoa */,
 				A2897CB3225CA1E7004EA481 /* RxRelay */,
 				C8093B4B1B8A71F00088E94D /* RxBlocking */,
@@ -3856,7 +3856,7 @@
 /* Begin PBXTargetDependency section */
 		A2897D5A225CA28F004EA481 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8A56AD61AD7424700B4673B /* RxSwift */;
+			target = C8A56AD61AD7424700B4673B /* BuzzRxSwift */;
 			targetProxy = A2897D59225CA28F004EA481 /* PBXContainerItemProxy */;
 		};
 		A2897D64225CBD37004EA481 /* PBXTargetDependency */ = {
@@ -3866,7 +3866,7 @@
 		};
 		C83508CA1C386F6F0027C24C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8A56AD61AD7424700B4673B /* RxSwift */;
+			target = C8A56AD61AD7424700B4673B /* BuzzRxSwift */;
 			targetProxy = C83508C91C386F6F0027C24C /* PBXContainerItemProxy */;
 		};
 		C835097B1C3871340027C24C /* PBXTargetDependency */ = {
@@ -3881,7 +3881,7 @@
 		};
 		C83E398721890703001F4F0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8A56AD61AD7424700B4673B /* RxSwift */;
+			target = C8A56AD61AD7424700B4673B /* BuzzRxSwift */;
 			targetProxy = C83E398621890703001F4F0E /* PBXContainerItemProxy */;
 		};
 		C83E398921890703001F4F0E /* PBXTargetDependency */ = {
@@ -3901,7 +3901,7 @@
 		};
 		C83E398F2189070A001F4F0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8A56AD61AD7424700B4673B /* RxSwift */;
+			target = C8A56AD61AD7424700B4673B /* BuzzRxSwift */;
 			targetProxy = C83E398E2189070A001F4F0E /* PBXContainerItemProxy */;
 		};
 		C83E39912189070A001F4F0E /* PBXTargetDependency */ = {
@@ -3921,17 +3921,17 @@
 		};
 		C872BD1C1BC0529600D7175E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8A56AD61AD7424700B4673B /* RxSwift */;
+			target = C8A56AD61AD7424700B4673B /* BuzzRxSwift */;
 			targetProxy = C872BD1B1BC0529600D7175E /* PBXContainerItemProxy */;
 		};
 		C872BD241BC052B800D7175E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8A56AD61AD7424700B4673B /* RxSwift */;
+			target = C8A56AD61AD7424700B4673B /* BuzzRxSwift */;
 			targetProxy = C872BD231BC052B800D7175E /* PBXContainerItemProxy */;
 		};
 		C88FA4FE1C25C44800CCFEA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8A56AD61AD7424700B4673B /* RxSwift */;
+			target = C8A56AD61AD7424700B4673B /* BuzzRxSwift */;
 			targetProxy = C88FA4FF1C25C44800CCFEA4 /* PBXContainerItemProxy */;
 		};
 		C8B52BC6215434D600EAA87C /* PBXTargetDependency */ = {
@@ -3941,7 +3941,7 @@
 		};
 		C8E8BA5C1E2C181A00A4AC2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8A56AD61AD7424700B4673B /* RxSwift */;
+			target = C8A56AD61AD7424700B4673B /* BuzzRxSwift */;
 			targetProxy = C8E8BA5B1E2C181A00A4AC2C /* PBXContainerItemProxy */;
 		};
 		C8E8BA761E2C1BB200A4AC2C /* PBXTargetDependency */ = {
@@ -4803,7 +4803,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8A56AED1AD7424700B4673B /* Build configuration list for PBXNativeTarget "RxSwift" */ = {
+		C8A56AED1AD7424700B4673B /* Build configuration list for PBXNativeTarget "BuzzRxSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8A56AEE1AD7424700B4673B /* Debug */,
