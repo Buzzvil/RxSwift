@@ -6,7 +6,7 @@
 //  Copyright © 2015 Krunoslav Zaher. All rights reserved.
 //
 
-import RxSwift
+import BuzzRxSwift
 
 /// Virtual time scheduler used for testing applications and libraries built using RxSwift.
 public class TestScheduler : VirtualTimeScheduler<TestSchedulerVirtualTimeConverter> {

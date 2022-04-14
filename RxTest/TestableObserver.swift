@@ -6,7 +6,7 @@
 //  Copyright © 2015 Krunoslav Zaher. All rights reserved.
 //
 
-import RxSwift
+import BuzzRxSwift
 
 /// Observer that records events together with virtual time when they were received.
 public final class TestableObserver<Element>

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import RxSwift
+import BuzzRxSwift
 
 /// Converter from virtual time and time interval measured in `Int`s to `Date` and `NSTimeInterval`.
 public struct TestSchedulerVirtualTimeConverter : VirtualTimeConverterType {

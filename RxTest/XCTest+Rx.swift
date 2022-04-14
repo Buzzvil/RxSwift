@@ -7,7 +7,7 @@
 //
 
 #if !os(watchOS)
-import RxSwift
+import BuzzRxSwift
 import XCTest
 /**
 Asserts two lists of events are equal.

@@ -6,7 +6,7 @@
 //  Copyright © 2015 Krunoslav Zaher. All rights reserved.
 //
 
-import RxSwift
+import BuzzRxSwift
 
 /// Observable sequence that records subscription lifetimes and timestamped events sent to observers.
 public class TestableObservable<Element>
