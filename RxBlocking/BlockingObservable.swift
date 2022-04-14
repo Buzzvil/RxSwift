@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import RxSwift
+import BuzzRxSwift
 
 /**
 `BlockingObservable` is a variety of `Observable` that provides blocking operators. 

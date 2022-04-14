@@ -8,7 +8,7 @@
 
 import CoreFoundation
 import Foundation
-import RxSwift
+import BuzzRxSwift
 
 #if os(Linux)
     import Foundation

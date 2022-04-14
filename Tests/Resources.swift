@@ -11,19 +11,19 @@ import RxSwift
 #if TRACE_RESOURCES
     struct Resources {
         static func incrementTotal() -> Int32 {
-            return RxSwift.Resources.incrementTotal()
+            return BuzzRxSwift.Resources.incrementTotal()
         }
 
         static func decrementTotal() -> Int32 {
-            return RxSwift.Resources.decrementTotal()
+            return BuzzRxSwift.Resources.decrementTotal()
         }
 
         static var numberOfSerialDispatchQueueObservables: Int32 {
-            return RxSwift.Resources.numberOfSerialDispatchQueueObservables
+            return BuzzRxSwift.Resources.numberOfSerialDispatchQueueObservables
         }
 
         static var total: Int32 {
-            return RxSwift.Resources.total
+            return BuzzRxSwift.Resources.total
         }
     }
 #endif
