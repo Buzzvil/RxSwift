@@ -6,7 +6,7 @@
 //  Copyright © 2017 Krunoslav Zaher. All rights reserved.
 //
 
-import RxSwift
+import BuzzRxSwift
 
 /// BehaviorRelay is a wrapper for `BehaviorSubject`.
 ///

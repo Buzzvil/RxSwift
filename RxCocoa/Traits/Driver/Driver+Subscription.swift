@@ -6,7 +6,7 @@
 //  Copyright © 2015 Krunoslav Zaher. All rights reserved.
 //
 
-import RxSwift
+import BuzzRxSwift
 import RxRelay
 
 private let errorMessage = "`drive*` family of methods can be only called from `MainThread`.\n" +

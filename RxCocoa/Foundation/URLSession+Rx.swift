@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import RxSwift
+import BuzzRxSwift
 
 #if canImport(FoundationNetworking)
 import FoundationNetworking

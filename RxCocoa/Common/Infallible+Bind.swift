@@ -6,7 +6,7 @@
 //  Copyright © 2020 Krunoslav Zaher. All rights reserved.
 //
 
-import RxSwift
+import BuzzRxSwift
 
 extension InfallibleType {
     /**

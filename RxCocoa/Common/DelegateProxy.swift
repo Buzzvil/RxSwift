@@ -8,7 +8,7 @@
 
 #if !os(Linux)
 
-    import RxSwift
+    import BuzzRxSwift
     #if SWIFT_PACKAGE && !os(Linux)
         import RxCocoaRuntime
     #endif

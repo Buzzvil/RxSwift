@@ -8,7 +8,7 @@
 
 #if os(iOS) || os(tvOS)
 
-import RxSwift
+import BuzzRxSwift
 import UIKit
 
 extension Reactive where Base: UITextField {

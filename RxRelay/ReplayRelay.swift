@@ -6,7 +6,7 @@
 //  Copyright © 2019 Krunoslav Zaher. All rights reserved.
 //
 
-import RxSwift
+import BuzzRxSwift
 
 /// ReplayRelay is a wrapper for `ReplaySubject`.
 ///

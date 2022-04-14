@@ -6,7 +6,7 @@
 //  Copyright © 2022 Krunoslav Zaher. All rights reserved.
 //
 
-import RxSwift
+import BuzzRxSwift
 
 extension InfallibleType {
     /// Converts `InfallibleType` to `Driver`.

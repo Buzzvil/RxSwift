@@ -9,7 +9,7 @@
 #if os(iOS) || os(tvOS)
 
 import UIKit
-import RxSwift
+import BuzzRxSwift
 
 /// For more information take a look at `DelegateProxyType`.
 open class RxCollectionViewDelegateProxy

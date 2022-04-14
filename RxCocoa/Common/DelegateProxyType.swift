@@ -9,7 +9,7 @@
 #if !os(Linux)
 
     import Foundation
-    import RxSwift
+    import BuzzRxSwift
 
 /**
 `DelegateProxyType` protocol enables using both normal delegates and Rx observable sequences with

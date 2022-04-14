@@ -9,7 +9,7 @@
 #if os(iOS)
 
 import UIKit
-import RxSwift
+import BuzzRxSwift
 
 class RxPickerViewArrayDataSource<T>: NSObject, UIPickerViewDataSource, SectionedViewDataSourceType {
     fileprivate var items: [T] = []

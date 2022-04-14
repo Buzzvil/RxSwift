@@ -9,7 +9,7 @@
 #if os(iOS) || os(tvOS)
 
 import UIKit
-import RxSwift
+import BuzzRxSwift
 
 extension UISearchBar: HasDelegate {
     public typealias Delegate = UISearchBarDelegate

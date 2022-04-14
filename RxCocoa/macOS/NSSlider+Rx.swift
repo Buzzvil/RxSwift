@@ -8,7 +8,7 @@
 
 #if os(macOS)
 
-import RxSwift
+import BuzzRxSwift
 import Cocoa
 
 extension Reactive where Base: NSSlider {

@@ -8,7 +8,7 @@
 
 #if os(macOS)
     import Cocoa
-    import RxSwift
+    import BuzzRxSwift
 
     extension Reactive where Base: NSView {
         /// Bindable sink for `alphaValue` property.

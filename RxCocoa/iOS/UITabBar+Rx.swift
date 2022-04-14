@@ -9,7 +9,7 @@
 #if os(iOS) || os(tvOS)
 
 import UIKit
-import RxSwift
+import BuzzRxSwift
 
 /**
  iOS only

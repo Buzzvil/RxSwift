@@ -6,7 +6,7 @@
 //  Copyright © 2017 Krunoslav Zaher. All rights reserved.
 //
 
-import RxSwift
+import BuzzRxSwift
 
 public enum SharingScheduler {
     /// Default scheduler used in SharedSequence based traits.

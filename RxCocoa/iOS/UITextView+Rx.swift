@@ -9,7 +9,7 @@
 #if os(iOS) || os(tvOS)
 
 import UIKit
-import RxSwift
+import BuzzRxSwift
 
 extension Reactive where Base: UITextView {
     /// Reactive wrapper for `text` property

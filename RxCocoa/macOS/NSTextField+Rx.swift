@@ -9,7 +9,7 @@
 #if os(macOS)
 
 import Cocoa
-import RxSwift
+import BuzzRxSwift
 
 /// Delegate proxy for `NSTextField`.
 ///

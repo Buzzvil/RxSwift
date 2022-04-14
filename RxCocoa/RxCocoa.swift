@@ -11,7 +11,7 @@ import Foundation
 // Importing RxCocoa also imports RxRelay
 @_exported import RxRelay
 
-import RxSwift
+import BuzzRxSwift
 #if os(iOS)
     import UIKit
 #endif

@@ -9,7 +9,7 @@
 #if os(macOS)
 
 import Cocoa
-import RxSwift
+import BuzzRxSwift
 
 private var rx_value_key: UInt8 = 0
 private var rx_control_events_key: UInt8 = 0

@@ -9,7 +9,7 @@
 #if os(iOS) || os(tvOS)
 
 import UIKit
-import RxSwift
+import BuzzRxSwift
 
 @available(iOS 10.0, tvOS 10.0, *)
 extension UICollectionView: HasPrefetchDataSource {

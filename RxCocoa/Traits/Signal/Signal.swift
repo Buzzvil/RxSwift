@@ -6,7 +6,7 @@
 //  Copyright © 2016 Krunoslav Zaher. All rights reserved.
 //
 
-import RxSwift
+import BuzzRxSwift
 
 /**
  Trait that represents observable sequence with following properties:

@@ -8,7 +8,7 @@
 
 #if os(iOS)
 
-import RxSwift
+import BuzzRxSwift
 import UIKit
 
 extension UISearchController: HasDelegate {

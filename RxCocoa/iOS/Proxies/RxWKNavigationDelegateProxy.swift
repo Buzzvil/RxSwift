@@ -8,7 +8,7 @@
 
 #if os(iOS) || os(macOS)
 
-import RxSwift
+import BuzzRxSwift
 import WebKit
 
 @available(iOS 8.0, OSX 10.10, OSXApplicationExtension 10.10, *)

@@ -9,7 +9,7 @@
 #if os(iOS)
 
 import UIKit
-import RxSwift
+import BuzzRxSwift
 
 extension Reactive where Base: UISwitch {
 

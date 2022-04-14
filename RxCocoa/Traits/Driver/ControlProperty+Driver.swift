@@ -6,7 +6,7 @@
 //  Copyright © 2015 Krunoslav Zaher. All rights reserved.
 //
 
-import RxSwift
+import BuzzRxSwift
 
 extension ControlProperty {
     /// Converts `ControlProperty` to `Driver` trait.

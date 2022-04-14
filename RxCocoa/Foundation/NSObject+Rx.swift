@@ -9,7 +9,7 @@
 #if !os(Linux)
 
 import Foundation
-import RxSwift
+import BuzzRxSwift
 #if SWIFT_PACKAGE && !DISABLE_SWIZZLING && !os(Linux)
     import RxCocoaRuntime
 #endif

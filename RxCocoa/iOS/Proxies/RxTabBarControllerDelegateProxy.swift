@@ -9,7 +9,7 @@
 #if os(iOS) || os(tvOS)
 
 import UIKit
-import RxSwift
+import BuzzRxSwift
 
 extension UITabBarController: HasDelegate {
     public typealias Delegate = UITabBarControllerDelegate

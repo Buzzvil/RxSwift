@@ -8,7 +8,7 @@
 
 #if os(iOS) || os(tvOS) || os(macOS)
 
-import RxSwift
+import BuzzRxSwift
 
 #if os(iOS) || os(tvOS)
     import UIKit

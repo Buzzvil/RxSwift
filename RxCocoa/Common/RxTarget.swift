@@ -8,7 +8,7 @@
 
 import Foundation
 
-import RxSwift
+import BuzzRxSwift
 
 class RxTarget : NSObject
                , Disposable {

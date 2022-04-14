@@ -8,7 +8,7 @@
 
 #if !os(Linux)
 
-import RxSwift
+import BuzzRxSwift
 
 import Foundation
 

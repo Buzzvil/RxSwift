@@ -9,7 +9,7 @@
 #if !os(Linux)
 
 import Foundation
-import RxSwift
+import BuzzRxSwift
 
 /// Key value observing options
 public struct KeyValueObservingOptions: OptionSet {
