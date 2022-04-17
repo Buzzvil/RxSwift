@@ -94,18 +94,18 @@
 		A20CC6F5259F40A100370AE3 /* Observable+WithUnretainedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20CC6D4259F408100370AE3 /* Observable+WithUnretainedTests.swift */; };
 		A20CC6F6259F40A200370AE3 /* Observable+WithUnretainedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20CC6D4259F408100370AE3 /* Observable+WithUnretainedTests.swift */; };
 		A2690E7D22688CAE0032C00E /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C809396D1B8A71760088E94D /* RxCocoa.framework */; };
-		A2690E7E22688CAE0032C00E /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8093BC71B8A71F00088E94D /* RxBlocking.framework */; };
-		A2690E7F22688CAE0032C00E /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88FA50C1C25C44800CCFEA4 /* RxTest.framework */; };
+		A2690E7E22688CAE0032C00E /* BuzzRxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8093BC71B8A71F00088E94D /* BuzzRxBlocking.framework */; };
+		A2690E7F22688CAE0032C00E /* BuzzRxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88FA50C1C25C44800CCFEA4 /* BuzzRxTest.framework */; };
 		A2690E8022688CAE0032C00E /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2897D53225CA1E7004EA481 /* RxRelay.framework */; };
 		A2690E8122688CB50032C00E /* BuzzRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A56AD71AD7424700B4673B /* BuzzRxSwift.framework */; };
 		A2690E8222688CB50032C00E /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C809396D1B8A71760088E94D /* RxCocoa.framework */; };
-		A2690E8322688CB50032C00E /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8093BC71B8A71F00088E94D /* RxBlocking.framework */; };
-		A2690E8422688CB50032C00E /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88FA50C1C25C44800CCFEA4 /* RxTest.framework */; };
+		A2690E8322688CB50032C00E /* BuzzRxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8093BC71B8A71F00088E94D /* BuzzRxBlocking.framework */; };
+		A2690E8422688CB50032C00E /* BuzzRxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88FA50C1C25C44800CCFEA4 /* BuzzRxTest.framework */; };
 		A2690E8522688CB50032C00E /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2897D53225CA1E7004EA481 /* RxRelay.framework */; };
 		A2690E8622688CB80032C00E /* BuzzRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A56AD71AD7424700B4673B /* BuzzRxSwift.framework */; };
 		A2690E8722688CB80032C00E /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C809396D1B8A71760088E94D /* RxCocoa.framework */; };
-		A2690E8822688CB80032C00E /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8093BC71B8A71F00088E94D /* RxBlocking.framework */; };
-		A2690E8922688CB80032C00E /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88FA50C1C25C44800CCFEA4 /* RxTest.framework */; };
+		A2690E8822688CB80032C00E /* BuzzRxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8093BC71B8A71F00088E94D /* BuzzRxBlocking.framework */; };
+		A2690E8922688CB80032C00E /* BuzzRxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88FA50C1C25C44800CCFEA4 /* BuzzRxTest.framework */; };
 		A2690E8A22688CB80032C00E /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2897D53225CA1E7004EA481 /* RxRelay.framework */; };
 		A2897D57225CA236004EA481 /* PublishRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B0F7101F530CA700548EBE /* PublishRelay.swift */; };
 		A2897D58225CA236004EA481 /* BehaviorRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C8BCCE1F8944B800501D4D /* BehaviorRelay.swift */; };
@@ -1032,7 +1032,7 @@
 		C8091C521FAA3588001DB32A /* ObservableConvertibleType+SharedSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableConvertibleType+SharedSequence.swift"; sourceTree = "<group>"; };
 		C8091C561FAA39C1001DB32A /* ControlEvent+Signal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ControlEvent+Signal.swift"; sourceTree = "<group>"; };
 		C809396D1B8A71760088E94D /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8093BC71B8A71F00088E94D /* RxBlocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8093BC71B8A71F00088E94D /* BuzzRxBlocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BuzzRxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8093C491B8A72BE0088E94D /* Cancelable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancelable.swift; sourceTree = "<group>"; };
 		C8093C4B1B8A72BE0088E94D /* AsyncLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncLock.swift; sourceTree = "<group>"; };
 		C8093C4C1B8A72BE0088E94D /* Lock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
@@ -1335,7 +1335,7 @@
 		C8845AD91EDB607800B36836 /* Observable+ShareReplayScopeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+ShareReplayScopeTests.swift"; sourceTree = "<group>"; };
 		C88E296A1BEB712E001CCB92 /* RunLoopLock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunLoopLock.swift; sourceTree = "<group>"; };
 		C88F76801CE5341700D5A014 /* TextInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
-		C88FA50C1C25C44800CCFEA4 /* RxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88FA50C1C25C44800CCFEA4 /* BuzzRxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BuzzRxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8941BDE1BD5695C00A0E874 /* BlockingObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockingObservable.swift; sourceTree = "<group>"; };
 		C8941BE31BD56B0700A0E874 /* BlockingObservable+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BlockingObservable+Operators.swift"; sourceTree = "<group>"; };
 		C896A68A1E6B7DC60073A3A8 /* Observable+CombineLatestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+CombineLatestTests.swift"; sourceTree = "<group>"; };
@@ -1501,8 +1501,8 @@
 			files = (
 				C83508C81C386F6F0027C24C /* BuzzRxSwift.framework in Frameworks */,
 				A2690E7D22688CAE0032C00E /* RxCocoa.framework in Frameworks */,
-				A2690E7E22688CAE0032C00E /* RxBlocking.framework in Frameworks */,
-				A2690E7F22688CAE0032C00E /* RxTest.framework in Frameworks */,
+				A2690E7E22688CAE0032C00E /* BuzzRxBlocking.framework in Frameworks */,
+				A2690E7F22688CAE0032C00E /* BuzzRxTest.framework in Frameworks */,
 				A2690E8022688CAE0032C00E /* RxRelay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1513,8 +1513,8 @@
 			files = (
 				A2690E8122688CB50032C00E /* BuzzRxSwift.framework in Frameworks */,
 				A2690E8222688CB50032C00E /* RxCocoa.framework in Frameworks */,
-				A2690E8322688CB50032C00E /* RxBlocking.framework in Frameworks */,
-				A2690E8422688CB50032C00E /* RxTest.framework in Frameworks */,
+				A2690E8322688CB50032C00E /* BuzzRxBlocking.framework in Frameworks */,
+				A2690E8422688CB50032C00E /* BuzzRxTest.framework in Frameworks */,
 				A2690E8522688CB50032C00E /* RxRelay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1525,8 +1525,8 @@
 			files = (
 				A2690E8622688CB80032C00E /* BuzzRxSwift.framework in Frameworks */,
 				A2690E8722688CB80032C00E /* RxCocoa.framework in Frameworks */,
-				A2690E8822688CB80032C00E /* RxBlocking.framework in Frameworks */,
-				A2690E8922688CB80032C00E /* RxTest.framework in Frameworks */,
+				A2690E8822688CB80032C00E /* BuzzRxBlocking.framework in Frameworks */,
+				A2690E8922688CB80032C00E /* BuzzRxTest.framework in Frameworks */,
 				A2690E8A22688CB80032C00E /* RxRelay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2445,8 +2445,8 @@
 			children = (
 				C8A56AD71AD7424700B4673B /* BuzzRxSwift.framework */,
 				C809396D1B8A71760088E94D /* RxCocoa.framework */,
-				C8093BC71B8A71F00088E94D /* RxBlocking.framework */,
-				C88FA50C1C25C44800CCFEA4 /* RxTest.framework */,
+				C8093BC71B8A71F00088E94D /* BuzzRxBlocking.framework */,
+				C88FA50C1C25C44800CCFEA4 /* BuzzRxTest.framework */,
 				C83508C31C386F6F0027C24C /* AllTests-iOS.xctest */,
 				C83509841C38740E0027C24C /* AllTests-tvOS.xctest */,
 				C83509941C38742C0027C24C /* AllTests-macOS.xctest */,
@@ -2616,7 +2616,7 @@
 			);
 			name = BuzzRxBlocking;
 			productName = RxSwift;
-			productReference = C8093BC71B8A71F00088E94D /* RxBlocking.framework */;
+			productReference = C8093BC71B8A71F00088E94D /* BuzzRxBlocking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C83508C21C386F6F0027C24C /* AllTests-iOS */ = {
@@ -2716,7 +2716,7 @@
 			);
 			name = BuzzRxTest;
 			productName = RxSwift;
-			productReference = C88FA50C1C25C44800CCFEA4 /* RxTest.framework */;
+			productReference = C88FA50C1C25C44800CCFEA4 /* BuzzRxTest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C8A56AD61AD7424700B4673B /* BuzzRxSwift */ = {
@@ -4059,7 +4059,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buzzvil.BuzzRxBlocking;
-				PRODUCT_NAME = RxBlocking;
+				PRODUCT_NAME = BuzzRxBlocking;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -4075,7 +4075,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buzzvil.BuzzRxBlocking;
-				PRODUCT_NAME = RxBlocking;
+				PRODUCT_NAME = BuzzRxBlocking;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -4091,7 +4091,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buzzvil.BuzzRxBlocking;
-				PRODUCT_NAME = RxBlocking;
+				PRODUCT_NAME = BuzzRxBlocking;
 				SKIP_INSTALL = YES;
 			};
 			name = "Release-Tests";
@@ -4429,7 +4429,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buzzvil.BuzzRxTest;
-				PRODUCT_NAME = RxTest;
+				PRODUCT_NAME = BuzzRxTest;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator";
 				TARGETED_DEVICE_FAMILY = "1,2,3";
@@ -4452,7 +4452,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buzzvil.BuzzRxTest;
-				PRODUCT_NAME = RxTest;
+				PRODUCT_NAME = BuzzRxTest;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator";
 				TARGETED_DEVICE_FAMILY = "1,2,3";
@@ -4475,7 +4475,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buzzvil.BuzzRxTest;
-				PRODUCT_NAME = RxTest;
+				PRODUCT_NAME = BuzzRxTest;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator";
 				TARGETED_DEVICE_FAMILY = "1,2,3";
