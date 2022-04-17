@@ -2599,9 +2599,9 @@
 			productReference = C809396D1B8A71760088E94D /* RxCocoa.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C8093B4B1B8A71F00088E94D /* RxBlocking */ = {
+		C8093B4B1B8A71F00088E94D /* BuzzRxBlocking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8093BC31B8A71F00088E94D /* Build configuration list for PBXNativeTarget "RxBlocking" */;
+			buildConfigurationList = C8093BC31B8A71F00088E94D /* Build configuration list for PBXNativeTarget "BuzzRxBlocking" */;
 			buildPhases = (
 				A21D625C21E1D82B00E3E359 /* SwiftLint */,
 				C8093BBA1B8A71F00088E94D /* Headers */,
@@ -2614,7 +2614,7 @@
 			dependencies = (
 				C872BD241BC052B800D7175E /* PBXTargetDependency */,
 			);
-			name = RxBlocking;
+			name = BuzzRxBlocking;
 			productName = RxSwift;
 			productReference = C8093BC71B8A71F00088E94D /* RxBlocking.framework */;
 			productType = "com.apple.product-type.framework";
@@ -2699,9 +2699,9 @@
 			productReference = C85BA04B1C3878740075D68E /* PerformanceTests.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C88FA4FD1C25C44800CCFEA4 /* RxTest */ = {
+		C88FA4FD1C25C44800CCFEA4 /* BuzzRxTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C88FA5081C25C44800CCFEA4 /* Build configuration list for PBXNativeTarget "RxTest" */;
+			buildConfigurationList = C88FA5081C25C44800CCFEA4 /* Build configuration list for PBXNativeTarget "BuzzRxTest" */;
 			buildPhases = (
 				A21D625D21E1D83800E3E359 /* SwiftLint */,
 				C88FA5061C25C44800CCFEA4 /* Headers */,
@@ -2714,7 +2714,7 @@
 			dependencies = (
 				C88FA4FE1C25C44800CCFEA4 /* PBXTargetDependency */,
 			);
-			name = RxTest;
+			name = BuzzRxTest;
 			productName = RxSwift;
 			productReference = C88FA50C1C25C44800CCFEA4 /* RxTest.framework */;
 			productType = "com.apple.product-type.framework";
@@ -2818,8 +2818,8 @@
 				C8A56AD61AD7424700B4673B /* BuzzRxSwift */,
 				C80938F51B8A71760088E94D /* RxCocoa */,
 				A2897CB3225CA1E7004EA481 /* RxRelay */,
-				C8093B4B1B8A71F00088E94D /* RxBlocking */,
-				C88FA4FD1C25C44800CCFEA4 /* RxTest */,
+				C8093B4B1B8A71F00088E94D /* BuzzRxBlocking */,
+				C88FA4FD1C25C44800CCFEA4 /* BuzzRxTest */,
 				C83508C21C386F6F0027C24C /* AllTests-iOS */,
 				C83509831C38740E0027C24C /* AllTests-tvOS */,
 				C83509931C38742C0027C24C /* AllTests-macOS */,
@@ -3871,12 +3871,12 @@
 		};
 		C835097B1C3871340027C24C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C88FA4FD1C25C44800CCFEA4 /* RxTest */;
+			target = C88FA4FD1C25C44800CCFEA4 /* BuzzRxTest */;
 			targetProxy = C835097A1C3871340027C24C /* PBXContainerItemProxy */;
 		};
 		C835097D1C3871380027C24C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8093B4B1B8A71F00088E94D /* RxBlocking */;
+			target = C8093B4B1B8A71F00088E94D /* BuzzRxBlocking */;
 			targetProxy = C835097C1C3871380027C24C /* PBXContainerItemProxy */;
 		};
 		C83E398721890703001F4F0E /* PBXTargetDependency */ = {
@@ -3891,12 +3891,12 @@
 		};
 		C83E398B21890703001F4F0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8093B4B1B8A71F00088E94D /* RxBlocking */;
+			target = C8093B4B1B8A71F00088E94D /* BuzzRxBlocking */;
 			targetProxy = C83E398A21890703001F4F0E /* PBXContainerItemProxy */;
 		};
 		C83E398D21890703001F4F0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C88FA4FD1C25C44800CCFEA4 /* RxTest */;
+			target = C88FA4FD1C25C44800CCFEA4 /* BuzzRxTest */;
 			targetProxy = C83E398C21890703001F4F0E /* PBXContainerItemProxy */;
 		};
 		C83E398F2189070A001F4F0E /* PBXTargetDependency */ = {
@@ -3911,12 +3911,12 @@
 		};
 		C83E39932189070A001F4F0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8093B4B1B8A71F00088E94D /* RxBlocking */;
+			target = C8093B4B1B8A71F00088E94D /* BuzzRxBlocking */;
 			targetProxy = C83E39922189070A001F4F0E /* PBXContainerItemProxy */;
 		};
 		C83E39952189070A001F4F0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C88FA4FD1C25C44800CCFEA4 /* RxTest */;
+			target = C88FA4FD1C25C44800CCFEA4 /* BuzzRxTest */;
 			targetProxy = C83E39942189070A001F4F0E /* PBXContainerItemProxy */;
 		};
 		C872BD1C1BC0529600D7175E /* PBXTargetDependency */ = {
@@ -4733,7 +4733,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8093BC31B8A71F00088E94D /* Build configuration list for PBXNativeTarget "RxBlocking" */ = {
+		C8093BC31B8A71F00088E94D /* Build configuration list for PBXNativeTarget "BuzzRxBlocking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8093BC41B8A71F00088E94D /* Debug */,
@@ -4783,7 +4783,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C88FA5081C25C44800CCFEA4 /* Build configuration list for PBXNativeTarget "RxTest" */ = {
+		C88FA5081C25C44800CCFEA4 /* Build configuration list for PBXNativeTarget "BuzzRxTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C88FA5091C25C44800CCFEA4 /* Debug */,
