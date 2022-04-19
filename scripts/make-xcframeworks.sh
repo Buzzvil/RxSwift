@@ -1,7 +1,7 @@
 rm -rf .build
 mkdir .build
 
-products=(RxSwift RxRelay RxCocoa RxTest RxBlocking)
+products=(BuzzRxSwift BuzzRxBlocking BuzzRxTest)
 BUILD_PATH=`realpath .build`
 
 for product in ${products[@]}; do
@@ -23,7 +23,7 @@ for product in ${products[@]}; do
     xcodebuild -workspace Rx.xcworkspace -configuration Release -archivePath "${BUILD_PATH}/${PROJECT_NAME}-appletvsimulator.xcarchive" -destination "generic/platform=tvOS Simulator" SKIP_INSTALL=NO BUILD_LIBRARIES_FOR_DISTRIBUTION=YES -scheme $PROJECT_NAME archive
 
     # RxTest doesn't work on watchOS 
-    if [[ "$product" != "RxTest" ]]; then
+    if [[ "$product" != "BuzzRxTest" ]]; then
         # Generate watchOS framework
         xcodebuild -workspace Rx.xcworkspace -configuration Release -archivePath "${BUILD_PATH}/${PROJECT_NAME}-watchos.xcarchive" -destination "generic/platform=watchOS" SKIP_INSTALL=NO BUILD_LIBRARIES_FOR_DISTRIBUTION=YES -scheme $PROJECT_NAME archive
 
@@ -64,9 +64,6 @@ for product in ${products[@]}; do
     fi
 
     # Zip it!
+    zip -r "./${PROJECT_NAME}.zip" "./${PROJECT_NAME}.xcframework" "./LICENSE.md"
+    rm -rf "./${PROJECT_NAME}.xcframework"
 done
-
-# Zip all frameworks to a single ZIP
-# This is (unfortunately) required by Carthage to work: https://bit.ly/3LVm0Y9
-zip -r ./RxSwift.zip *.xcframework
-
