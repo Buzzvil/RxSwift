@@ -50,15 +50,15 @@ public protocol ReactiveCompatible {
     associatedtype ReactiveBase
 
     /// Reactive extensions.
-    static var rx: Reactive<ReactiveBase>.Type { get set }
+    static var brx: Reactive<ReactiveBase>.Type { get set }
 
     /// Reactive extensions.
-    var rx: Reactive<ReactiveBase> { get set }
+    var brx: Reactive<ReactiveBase> { get set }
 }
 
 extension ReactiveCompatible {
     /// Reactive extensions.
-    public static var rx: Reactive<Self>.Type {
+    public static var brx: Reactive<Self>.Type {
         get { Reactive<Self>.self }
         // this enables using Reactive to "mutate" base type
         // swiftlint:disable:next unused_setter_value
@@ -66,7 +66,7 @@ extension ReactiveCompatible {
     }
 
     /// Reactive extensions.
-    public var rx: Reactive<Self> {
+    public var brx: Reactive<Self> {
         get { Reactive(self) }
         // this enables using Reactive to "mutate" base object
         // swiftlint:disable:next unused_setter_value
@@ -76,5 +76,5 @@ extension ReactiveCompatible {
 
 import Foundation
 
-/// Extend NSObject with `rx` proxy.
-//extension NSObject: ReactiveCompatible { }
+/// Extend NSObject with `brx` proxy.
+extension NSObject: ReactiveCompatible { }
