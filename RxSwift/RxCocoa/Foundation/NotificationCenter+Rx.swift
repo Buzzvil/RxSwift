@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import BuzzRxSwift
 
 extension Reactive where Base: NotificationCenter {
     /**

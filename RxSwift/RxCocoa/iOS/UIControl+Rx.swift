@@ -8,7 +8,6 @@
 
 #if os(iOS) || os(tvOS)
 
-import BuzzRxSwift
 import UIKit
 
 extension Reactive where Base: UIControl {

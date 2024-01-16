@@ -8,7 +8,6 @@
 
 #if os(iOS)
 
-import BuzzRxSwift
 import UIKit
 
 extension Reactive where Base: UIButton {
@@ -23,7 +22,6 @@ extension Reactive where Base: UIButton {
 
 #if os(tvOS)
 
-import BuzzRxSwift
 import UIKit
 
 extension Reactive where Base: UIButton {
@@ -39,7 +37,6 @@ extension Reactive where Base: UIButton {
 
 #if os(iOS) || os(tvOS)
 
-import BuzzRxSwift
 import UIKit
 
 extension Reactive where Base: UIButton {
@@ -68,7 +65,6 @@ extension Reactive where Base: UIButton {
 #endif
 
 #if os(iOS) || os(tvOS)
-    import BuzzRxSwift
     import UIKit
     
     extension Reactive where Base: UIButton {
