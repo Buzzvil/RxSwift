@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name                = "BuzzRxSwift"
-  s.version             = "6.6.0-rc.0"
+  s.version             = "7.0.0"
   s.summary             = "BuzzRxSwift is a Buzzvil's wrapper framework for RxSwift"
   s.homepage            = "https://www.buzzvil.com"
   s.license             = 'MIT'
   s.author              = { "Buzzvil" => "dev@buzzvil.com" }
-  s.source              = { :http => "https://github.com/Buzzvil/RxSwift/releases/download/v6.6.0-rc.0/BuzzRxSwift.zip" }
+  s.source              = { :http => "https://github.com/Buzzvil/RxSwift/releases/download/v7.0.0/BuzzRxSwift.zip" }
   s.vendored_frameworks = 'BuzzRxSwift.xcframework'
 
   s.requires_arc          = true
