@@ -1,3 +1,22 @@
+# 버즈빌 전용
+
+### 배포 가이드
+1. 버전 태그 만들어서 푸시 eg. v6.6.0
+ - `v` prefix는 기존 RxSwift Github Release와의 충돌 방지를 위함
+2. ./scripts/make-xcframeworks.sh 실행
+3. `BuzzRxSwift.zip`을 압축 해제 하여 다음을 실행
+  - codesign --timestamp -v --sign "Apple Distribution: Buzzvil Co., Ltd. (67369282ZY)" BuzzRxSwift.xcframework
+  - zip -r "./BuzzRxSwift.zip" "./BuzzRxSwift.xcframework" "./LICENSE.md"
+4. Github Tag에 접근하여 Create New Release 수행
+5. Release에 `zip` 업로드
+6. `.podspec` 파일들을 갱신하여 버전을 업데이트
+7. lint 수행
+  - `pod spec lint --verbose --no-clean --allow-warnings BuzzRxSwift.podspec`
+7. Private 배포를 위해 `pod repo push buzzvil BuzzRxSwift.podspec` 수행
+8. Public 배포를 위해 `pod trunk push BuzzRxSwift.podspec` 수행
+
+# Original README.md
+
 <p align="center">
 <img src="assets/RxSwift_Logo.png" width="35%" alt="RxSwift Logo" />
 <br />
